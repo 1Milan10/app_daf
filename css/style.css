@@ -1,0 +1,116 @@
+html,body{
+  font-family: Helvetica, Sans-Serif;  
+  overflow: hidden;
+}
+
+/* General page element styles */
+.no-spacing {
+    padding: 0;
+    margin: 0;
+}
+
+/* Language page styles */
+.centered-div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mainscreen-logo {
+    width: 50%;
+    height: 50%;
+    display:block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.daf-orange-btn {
+    font-weight: 300;
+    background-color: #FC5F01;
+    border-radius: 0 !important;
+    border: none;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+}
+
+.daf-orange-btn:hover {
+    background-color: #F86819;
+}
+
+.daf-gray-btn {
+    font-weight: 300;
+    background-color: #D5D6DB;
+    border-radius: 0 !important;
+    border: none;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/* Login page styles */
+.input-middle-spacing {
+    height: 40px;
+    font-weight: 300;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    margin-bottom: 1px;
+    background-color: aliceblue;
+}
+
+.password {
+    height: 40px;
+    font-weight: 300;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+
+/* Register page styles */
+.modal-content {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+
+/* Home page styles */
+.image-centered {
+    display:block; 
+    margin:auto;
+}
+
+.text-centered {
+    clear: both;
+    display: block;
+    text-align: center;
+}
+
+.recently-added {
+    background-color: darkgray;
+}
+
+.recently-title {
+    color: lightgray;
+    font-style: italic;
+}
+
+.recently-description {
+    color: white;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+.recently-time {
+    color: white;
+    font-weight: 200;
+}
